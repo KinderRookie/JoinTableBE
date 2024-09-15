@@ -11,12 +11,11 @@ JoinTable is a mini side project designed to streamline the process of creating 
 
 ## Technology Stack (FARM Stack)
 
-JoinTable is built using the **FARM stack**:
 
-- **FastAPI**: The backend is powered by FastAPI, a modern, fast (high-performance) web framework for building APIs with Python.
-- **React**: The frontend is built with React, a popular JavaScript library for building user interfaces.
-- **MongoDB**: The database used to store event and participant information is MongoDB, a NoSQL database.
-- **Python**: Python powers the backend logic and integrates with FastAPI to handle requests and interact with the database.
+JoinTable is built using the **FARM** stack:
+- ![FastAPI](https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png) **FastAPI** for the backend
+- ![React](https://reactjs.org/logo-og.png) **React** for the frontend
+- ![MongoDB](https://webassets.mongodb.com/_com_assets/cms/mongodb-logo-rgb-j6w271g1xn.jpg) **MongoDB** for the database
 
 ## Getting Started
 
