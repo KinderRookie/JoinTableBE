@@ -23,6 +23,7 @@ origins = ["*"]
 load_dotenv()
 
 from routers.events import router as events_router
+from routers.users import router as users_router
 
 
 # Dictionary to hold MongoDB client (or other resources)
@@ -46,6 +47,8 @@ app = FastAPI(middleware=middleware, lifespan=lifespan)
 
 
 app.include_router(events_router, prefix="/event", tags=["events"])
+app.include_router(users_router, prefix="/users", tags=["users"])
+
 
 
 
