@@ -52,7 +52,7 @@ app.include_router(events_router, prefix="/event", tags=["events"])
 
 @app.get("/")
 async def root():
-    return {"message": "Hello World"}
+    return {"message": "Hello Server"}
 
 
 @app.get("/hello/{name}")
